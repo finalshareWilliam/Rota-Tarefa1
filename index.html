@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script src="/convertToRoman.js"></script>
+    <script src="/convertToInt.js"></script>
+</head>
+
+  <body>
+    <div class="text">
+      <h1>Conversor de números romanos</h1>
+    </div>   
+        <div class="row">
+          <div class="card black">
+            <h4>Número Arábicos para Números Romanos</h4>
+            <input class="w3-input w3-border w3-sand" id="choice" placeholder="Ex: 5,10,100..."> <br><br> = <span id="result"></span>
+            <br>
+            <br>
+            <button class="button" style="vertical-align:middle" onclick="convertToRoman()"><span>Converter </span></button>
+          </div>
+         
+          <div class="card black">
+            <h4>Números Romanos para Números Arábicos</h4>
+            <input class="w3-input w3-border w3-sand" id="choice1" placeholder="Ex: V,X,C..."> <br><br> = <span id="result1"></span>
+            <br>
+            <br>
+            <button class="button" style="vertical-align:middle" onclick="toNumber()"><span>Converter </span></button>
+          </div>
+        </div>
+  </body>
+</html>
